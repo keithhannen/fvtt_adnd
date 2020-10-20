@@ -1,0 +1,149 @@
+<form autocomplete="off">
+  <div class="attribute-bonuses">
+    <label>{{localize 'ADND.scores.str.long'}}</label>
+    <ol>
+      <!--<li>
+        {{localize 'ADND.Melee'}} ({{mod data.scores.str.mod}})
+      </li>
+      <li>
+        {{localize 'ADND.exploration.od.long'}} ({{data.exploration.odMod}} in 6)
+      </li> -->
+      <li>
+        {{localize 'ADND.hitprob'}}: {{mod data.scores.str.hitprob}}
+      </li>
+      <li>
+        {{localize 'ADND.damageadj'}}: {{mod data.scores.str.damageadj}}
+      </li>
+      <li>
+        {{localize 'ADND.weightallow'}}: {{data.scores.str.weightallow}} pounds
+      </li>
+      <li>
+        {{localize 'ADND.maxpress'}}: {{data.scores.str.maxpress}}
+      </li>
+      <li>
+        {{localize 'ADND.opendoors'}}: {{data.scores.str.opendoors}}
+      </li>
+      <li>
+        {{localize 'ADND.openmagicdoors'}}: {{data.scores.str.openmagicdoors}}
+      </li>
+      <li>
+        {{localize 'ADND.bendbars'}}: {{data.scores.str.bendbars}}%
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'ADND.scores.dex.long'}}</label>
+    <ol>
+      <!-- <li>
+        {{localize 'ADND.SpokenLanguages'}} ({{localize data.languages.spoken}})
+      </li>
+      <li>
+        {{localize 'ADND.Literacy'}} ({{localize data.languages.literacy}})
+      </li> -->
+      <li>
+        {{localize 'ADND.dexreactionadj'}}: {{mod data.scores.dex.dexreactionadj}}
+      </li>
+      <li>
+        {{localize 'ADND.missileattack'}}: {{mod data.scores.dex.missileattack}}
+      </li>
+      <li>
+        {{localize 'ADND.defensiveadj'}}: {{mod data.scores.dex.defensiveadj}}
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'ADND.scores.con.long'}}</label>
+    <ol>
+      <!-- <li>
+        {{localize 'ADND.saves.magic.long'}} ({{mod data.scores.wis.mod}})
+      </li> -->
+      <li>
+        {{localize 'ADND.hpadj'}}: {{mod data.scores.con.hpadj}}
+      </li>
+      <li>
+        {{localize 'ADND.systemshock'}}: {{data.scores.con.systemshock}}%
+      </li>
+      <li>
+        {{localize 'ADND.resurrectionsurv'}}: {{data.scores.con.resurrectionsurv}}%
+      </li>
+      <li>
+        {{localize 'ADND.poisonsave'}}: {{mod data.scores.con.poisonsave}}
+      </li>
+      <li>
+        {{localize 'ADND.regen'}}: {{data.scores.con.regen}} turns
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'ADND.scores.int.long'}}</label>
+    <ol>
+      <!-- <li>
+        {{localize 'ADND.Missile'}} ({{mod data.scores.dex.mod}})
+      </li>
+      <li>
+        {{localize 'ADND.Initiative'}} ({{mod data.scores.dex.init}})
+      </li>
+      <li>
+        {{localize 'ADND.ArmorClass'}} ({{mod data.scores.dex.mod}})
+      </li> -->
+      <li>
+        {{localize 'ADND.nolanguages'}}: {{data.scores.int.nolanguages}}
+      </li>
+      <li>
+        {{localize 'ADND.spelllevel'}}: {{data.scores.int.spelllevel}}
+      </li>
+      <li>
+        {{localize 'ADND.chancetolearn'}}: {{data.scores.int.chancetolearn}}%
+      </li>
+      <li>
+        {{localize 'ADND.maxspell'}}: {{data.scores.int.maxspell}}/level
+      </li>
+      <li>
+        {{localize 'ADND.spellimmint'}}: {{data.scores.int.spellimmint}}
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'ADND.scores.wis.long'}}</label>
+    <ol>
+      <!-- <li>
+        {{localize 'ADND.Health'}} ({{mod data.scores.con.mod}})
+      </li> -->
+      <li>
+        {{localize 'ADND.magdefadj'}}: {{mod data.scores.wis.magdefadj}}
+      </li>
+      <li>
+        {{localize 'ADND.bonusspells'}}: {{data.scores.wis.bonusspells}}
+      </li>
+      <li>
+        {{localize 'ADND.chancespell'}}: {{data.scores.wis.chancespell}}%
+      </li>
+      <li>
+        {{localize 'ADND.spellimmwis'}}: {{data.scores.wis.spellimmwis}}
+      </li>
+    </ol>
+  </div>
+  <div class="attribute-bonuses">
+    <label>{{localize 'ADND.scores.cha.long'}}</label>
+    <ol>
+      <!-- <li>
+        {{localize 'ADND.NPCReaction'}} ({{mod data.scores.cha.npc}})
+      </li>
+      <li>
+        {{localize 'ADND.RetainersMax'}} ({{add data.scores.cha.mod 4}})
+      </li>
+      <li>
+        {{localize 'ADND.Loyalty'}} ({{add data.scores.cha.mod 7}})
+      </li> -->
+      <li>
+        {{localize 'ADND.maxhench'}}: {{data.scores.cha.maxhench}}
+      </li>
+      <li>
+        {{localize 'ADND.loyaltybase'}}: {{mod data.scores.cha.loyaltybase}}
+      </li>
+      <li>
+        {{localize 'ADND.chareactionadj'}}: {{mod data.scores.cha.chareactionadj}}
+      </li>
+    </ol>
+  </div>
+</form>

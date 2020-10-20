@@ -1,0 +1,25 @@
+{
+  "name": "adnd",
+  "title": "Advanced Dungeons & Dragons",
+  "description": "Play AD&D on Foundry VTT",
+  "version": "0.20.8",
+  "minimumCoreVersion": "0.6.2",
+  "compatibleCoreVersion": "0.7.3",
+  "templateVersion": 2,
+  "author": "doktorziplok",
+  "esmodules": ["adnd.js"],
+  "styles": ["adnd.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "url": "https://github.com/keithhannen/fvtt_adnd",
+  "manifest": "https://raw.githubusercontent.com/keithhannen/fvtt_adnd/master/system.json",
+  "download": "https://github.com/keithhannen/fvtt_adnd/archive/master.zip"
+}
