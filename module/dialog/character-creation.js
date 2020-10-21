@@ -157,7 +157,7 @@ export class AdndCharacterCreator extends FormApplication {
     // Generate gold
     let gold = event.target.elements.namedItem('gold').value;
     const itemData = {
-      name: "GP",
+      name: "Gold Pieces",
       type: "item",
       img: "/systems/adnd/assets/gold.png",
       data: {
